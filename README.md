@@ -2,6 +2,8 @@
 
 A browser-based drawing prototype controlled by hand gestures through a webcam. This is a group project; the original code and its history are in [sucsage/ConOps](https://github.com/sucsage/ConOps).
 
+![Drawing in the air with one raised index finger](docs/images/drawing-mode.jpg)
+
 ## Live demo
 
 **<https://ariyaluesawat.github.io/Hand-Tracking-Air-Canvas/>**
@@ -17,6 +19,14 @@ python3 -m http.server 8000
 ```
 
 Open <http://localhost:8000>, select **START CAMERA**, and allow camera access. The page loads MediaPipe from a CDN, so an internet connection is needed to load the hand-tracking library.
+
+## Screenshots
+
+| Start screen | Hand overlay |
+| --- | --- |
+| ![Start screen before the camera is on](docs/images/start-screen.jpg) | ![Camera on with the 21-point hand skeleton](docs/images/hand-overlay.jpg) |
+
+These screenshots come from the group SRS (UI-101 to UI-103) and show the first prototype. The current page also has an Actions panel with draw mode, Undo, Save PNG, hide camera, and Clear.
 
 ## Controls
 
